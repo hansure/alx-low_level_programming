@@ -1,11 +1,12 @@
 #include<stdio.h>
-
+/*
+ * This function to display alphabetical letters*/
 int main(void)
 {
 int n;
-for (n='a'; n<='z'; n++)
+for (n = 'a'; n <= 'z'; n++)
 {
-if(n=='e' || n=='q')
+if(n == 'e' || n == 'q')
 {
 continue;
 }
