@@ -9,7 +9,7 @@ putchar(n +'0');
 if(n != 9)
 {
 putchar(',');
-putchar('\t');
+putchar(' ');
 }
 }
 putchar('\n');
