@@ -1,6 +1,7 @@
 #include "main.h"
-/*
+/**
  *Betty documment goes here
+ *Documentation: Always should be written here
  */
 void print_alphabet(void)
 {
