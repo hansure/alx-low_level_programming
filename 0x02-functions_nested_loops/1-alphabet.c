@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *Betty documment goes here
- * /
+ * */
 void print_alphabet(void)
 {
 
