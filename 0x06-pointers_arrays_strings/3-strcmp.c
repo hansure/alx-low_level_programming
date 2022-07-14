@@ -25,7 +25,7 @@ int _strcmp(char *s1, char *s2)
 		b++;
 	}
 
-	is (a <= b)
+	if (a <= b)
 	{
 	
 		lim = a;
