@@ -1,4 +1,4 @@
-#include "main.h";
+#include "main.h"
 
 /**
  * string_toupper: Changes all lowercase letters to uppercase letter
@@ -13,7 +13,7 @@ char *string_toupper(char *p)
 	while (p[a])
 	{
 	
-		if ([a] >= 97 && p[a] <= 122)
+		if ( a >= 97 && p[a] <= 122)
 		{
 		
 			p[a] = p[a] - 32;
