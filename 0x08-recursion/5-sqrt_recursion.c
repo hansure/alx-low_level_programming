@@ -1,4 +1,5 @@
 #include "main.h"
+int sqroot(int, int);
 
 /**
  * _sqrt_recursion: Calculate the squar root of the number
@@ -27,6 +28,6 @@ int sqroot(int a, int b)
 	else if (b * b > a)
 		return (-1);
 	else
-		return (sqroot(a, b + 1);
+		return (sqroot(a, b + 1));
 
 }
