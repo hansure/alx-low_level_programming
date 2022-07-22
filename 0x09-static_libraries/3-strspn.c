@@ -7,7 +7,7 @@
  * Return: 0
  */
 
-unsigned int *_strspn(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 
 	unsigned int i, n, value, check;
@@ -34,5 +34,5 @@ unsigned int *_strspn(char *s, char *accept)
 			return (value);
 	}
 
-	return (value)
+	return (value);
 }
