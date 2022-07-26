@@ -2,22 +2,34 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int _str_len(char *s)
+{
+
+	int i;
+
+	while (*s++)
+	{
+	
+		i++;
+	}
+
+	return (i);
+}
+
 char *str_concat(char *s1, char *s2)
 {
 
 
 	int i, j, k;
-	char *newPtr = NULL;
+	char *newPtr;
 
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
 
-	for (i = 0; s1[i] != '\0'; i++)
-		;
-	for (j = 0; s2[i] != '\0';j++)
-		;
+	i = _str_len(s1);
+	j = _str_len(s2) - i; 
 	newPtr = (char*)malloc((i + j) * sizeof(char));
 
 	if (newPtr == NULL)
