@@ -71,8 +71,8 @@ void op_s(va_list form)
 void print_all(const char * const format, ...)
 {
 
-	va_list all,
-		unsigned int i, j;
+	va_list all;
+	unsigned int i, j;
 
 	char *separator = "";
 
@@ -90,7 +90,7 @@ void print_all(const char * const format, ...)
 	{
 	
 		j = 0;
-		while ( < 4)
+		while (j < 4)
 		{
 		
 			if (ops[j].op[0] == format[i])
@@ -99,7 +99,7 @@ void print_all(const char * const format, ...)
 				printf("%s", separator);
 				separator = ", ";
 				ops[j].f(all);
-				breake
+				break;
 			}
 			j++;
 		}
